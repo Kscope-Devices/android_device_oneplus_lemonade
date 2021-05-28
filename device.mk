@@ -23,6 +23,9 @@ PRODUCT_COPY_FILES += \
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-kscope
+
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
