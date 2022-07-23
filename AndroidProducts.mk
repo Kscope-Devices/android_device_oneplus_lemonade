@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lemonade.mk
+    $(LOCAL_DIR)/kscope_lemonade.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lemonade-user \
-    lineage_lemonade-userdebug \
-    lineage_lemonade-eng
+    kscope_lemonade-user \
+    kscope_lemonade-userdebug \
+    kscope_lemonade-eng
